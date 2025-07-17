@@ -20,6 +20,7 @@ function pickDungeon(){
         for(let i = 0; i < 3; i++){
             challenge += (Math.floor(Math.random() * badges.length));
         }
+        //this line gives bugs and idk why
         endResult.textContent = ("Your dungeon is " + dungeon + ", and your challenges are to clear without " + challenge(0) + ", " + challenge(1) + "and " + challenge(2) + ".");
     }
     if(diff = 2){
