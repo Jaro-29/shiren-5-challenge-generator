@@ -14,7 +14,7 @@ function main(){
 }
 
 function pickDungeon(){
-    let challenge;
+    let challenge = [];
     if(diff = 1){
         var dungeon = Math.floor(Math.random() * easy.length);
         for(let i = 0; i < 3; i++){
