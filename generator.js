@@ -14,24 +14,25 @@ function main(){
 }
 
 function pickDungeon(){
+    let challenge;
     if(diff = 1){
         var dungeon = Math.floor(Math.random() * easy.length);
         for(let i = 0; i < 3; i++){
-            let challenge += Math.floor(Math.random() * badges.length);
+            challenge += Math.floor(Math.random() * badges.length);
         }
         endResult.textContent("Your dungeon is " + dungeon + ", and your challenges are to clear without " + challenge.0 + ", " + challenge.1 + "and " + challenge.2 ".");
     }
     if(diff = 2){
         var dungeon = Math.floor(Math.random() * medium.length);
         for(let i = 0; i < 3; i++){
-            let challenge += Math.floor(Math.random() * badges.length);
+            challenge += Math.floor(Math.random() * badges.length);
         }
         endResult.textContent("Your dungeon is " + dungeon + ", and your challenges are to clear without " + challenge.0 + ", " + challenge.1 + "and " + challenge.2 ".");
     }
     if(diff = 3){
         var dungeon = Math.floor(Math.random() * hard.length);
         for(let i = 0; i < 3; i++){
-            let challenge += Math.floor(Math.random() * badges.length);
+            challenge += Math.floor(Math.random() * badges.length);
         }
         endResult.textContent("Your dungeon is " + dungeon + ", and your challenges are to clear without " + challenge.0 + ", " + challenge.1 + "and " + challenge.2 ".");
     }
